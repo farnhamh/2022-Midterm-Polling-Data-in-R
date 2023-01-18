@@ -3,7 +3,6 @@ library(dplyr)
 
 link_head <- 'https://www.270towin.com/2022-senate-polls/'
 states <- c('Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maryland', 'Missouri', 'Nevada', 'New Hampshire', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma (1)', 'Oklahoma (2)', 'Oregon', 'Pennsylvania', 'South Carolina', 'South Dakota', 'Utah', 'Vermont', 'Washington', 'Wisconsin')
-#states <- c('Hawaii', 'Oregon')
 
 averageDifference = c()
 party = c()
