@@ -55,7 +55,6 @@ statePolls <- function(state){
 
 for (state in states){
   myState = tolower(gsub(' ', '', state))
-  print(state)
   value = statePolls(myState)
   
   if (is.na(value)){
@@ -79,3 +78,6 @@ polls <- data.frame(
 )
 colnames(polls) = c('States', 'Party', 'Average Poll Difference')
 View(polls)
+
+write.csv(polls, "output.csv", row.names=FALSE, quote=FALSE) 
+
